@@ -12,3 +12,5 @@
 /web/vendor
 /web/assetic/*[0-9]*
 bin/doctrine-dbal
+.idea/*
+web/app
