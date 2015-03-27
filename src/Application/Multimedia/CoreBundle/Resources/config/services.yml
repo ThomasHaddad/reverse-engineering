@@ -1,0 +1,6 @@
+services:
+    multimedia.admin.course:
+        class: Application\Multimedia\CoreBundle\Admin\CourseAdmin
+        arguments: [~, Application\Multimedia\ModelBundle\Entity\Course, MultimediaCoreBundle:CourseAdmin]
+        tags:
+            - {name: sonata.admin, manager_type: orm, group: admin, label: Course}
